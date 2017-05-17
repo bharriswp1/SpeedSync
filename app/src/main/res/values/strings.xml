@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Speed Sync</string>
+    <string name="settings_text">Settings</string>
 </resources>
