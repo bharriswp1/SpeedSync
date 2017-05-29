@@ -51,7 +51,9 @@ public class TextParameterFragment extends Fragment {
                 builder.setTitle(parameterName);
 
                 final EditText input = new EditText(getActivity());
-                input.setText(parameterValue);
+                if (!parameterValue.equals("None")) {
+                    input.setText(parameterValue);
+                }
                 input.setInputType(InputType.TYPE_CLASS_TEXT);
                 builder.setView(input);
 

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Speed Sync</string>
     <string name="settings_text">Settings</string>
+    <string name="send_text">Quick Send</string>
+    <string name="receive_text">Quick Receive</string>
+    <string name="sync_text">Quick Sync</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
